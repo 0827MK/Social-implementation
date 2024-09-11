@@ -1,0 +1,736 @@
+Unity Editor version:    2022.3.44f1 (c3ae09b9f03c)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.6 (Build 23G80)
+Darwin version:          23.6.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/abekotone/My project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61004
+Successfully changed project path to: /Users/abekotone/My project
+/Users/abekotone/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8606764864]  Target information:
+
+Player connection [8606764864] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8606764864] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+Refreshing native plugins compatible for Editor in 10.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.44f1 (c3ae09b9f03c)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/abekotone/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M3 (high power)
+Metal devices available: 1
+0: Apple M3 (high power)
+Using device Apple M3 (high power)
+Initializing Metal device caps: Apple M3
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56446
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.44f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002762 seconds.
+- Loaded All Assemblies, in  0.211 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.121 seconds
+Domain Reload Profiling: 333ms
+	BeginReloadAssembly (75ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (85ms)
+		LoadAssemblies (75ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (83ms)
+			TypeCache.Refresh (82ms)
+				TypeCache.ScanAssembly (72ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (121ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (98ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (69ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.360 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.270 seconds
+Domain Reload Profiling: 631ms
+	BeginReloadAssembly (61ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (256ms)
+		LoadAssemblies (175ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (109ms)
+			TypeCache.Refresh (96ms)
+				TypeCache.ScanAssembly (83ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (271ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (197ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (27ms)
+			ProcessInitializeOnLoadAttributes (154ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3672 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (49.7 KB). Loaded Objects now: 4162.
+Memory consumption went from 151.0 MB to 150.9 MB.
+Total: 2.206500 ms (FindLiveObjects: 0.116750 ms CreateObjectMapping: 0.034833 ms MarkObjects: 1.990167 ms  DeleteObjects: 0.064291 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 368011.652414 seconds.
+  path: Assets/pixel horror abandoned rural  train station/Materials/blank.mat
+  artifactKey: Guid(239db300ca311f044ac2ac114d8eef16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel horror abandoned rural  train station/Materials/blank.mat using Guid(239db300ca311f044ac2ac114d8eef16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '71631ea323db9c90a2bd15370259af96') in 0.096987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/pixel horror abandoned rural  train station/Materials/train station flats.mat
+  artifactKey: Guid(3da7e03eb9971c54091789278c4219fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel horror abandoned rural  train station/Materials/train station flats.mat using Guid(3da7e03eb9971c54091789278c4219fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1e20fe5399d1a16503d11e1504695818') in 0.013363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/pixel horror abandoned rural  train station/Materials/old worn Wood Planks_.mat
+  artifactKey: Guid(d8da2f2ee7e0bda49a7868e51f577977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel horror abandoned rural  train station/Materials/old worn Wood Planks_.mat using Guid(d8da2f2ee7e0bda49a7868e51f577977) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4fff264a67a4929db5b013798447f801') in 0.008569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/pixel horror abandoned rural  train station/Materials/PlainRust.mat
+  artifactKey: Guid(696f3e035085111439ee581c234780b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel horror abandoned rural  train station/Materials/PlainRust.mat using Guid(696f3e035085111439ee581c234780b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4bc5361d56128673aaf29850c020f606') in 0.006075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/pixel horror abandoned rural  train station/Materials/Day time sky box.mat
+  artifactKey: Guid(06569ceb448dabc42872c934eea7e4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel horror abandoned rural  train station/Materials/Day time sky box.mat using Guid(06569ceb448dabc42872c934eea7e4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4c215f29c4d264cef9501d204c4574f6') in 0.007804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/pixel horror abandoned rural  train station/Materials/Glass.mat
+  artifactKey: Guid(915296a1612f88244ab5d1fafa970980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel horror abandoned rural  train station/Materials/Glass.mat using Guid(915296a1612f88244ab5d1fafa970980) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8f08217f726547003be6244a1a44ed16') in 0.005326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/pixel horror abandoned rural  train station/Materials/white_.mat
+  artifactKey: Guid(17481fca4c269104c8a882f2bf24b00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel horror abandoned rural  train station/Materials/white_.mat using Guid(17481fca4c269104c8a882f2bf24b00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '97d407b7415716b5719f98885758bc3e') in 0.008477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/pixel horror abandoned rural  train station/Materials/Cement.mat
+  artifactKey: Guid(a30f3b53d56644d499bdddd31a50b881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel horror abandoned rural  train station/Materials/Cement.mat using Guid(a30f3b53d56644d499bdddd31a50b881) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2b28cf627559d9e3e4a51670f6280c2b') in 0.004236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/pixel horror abandoned rural  train station/Materials/RustPanel.mat
+  artifactKey: Guid(2699e38285e21644e944e9956ccc653c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel horror abandoned rural  train station/Materials/RustPanel.mat using Guid(2699e38285e21644e944e9956ccc653c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5c4b2f3e1aa2d43ce65e5a7395d39eee') in 0.004799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/pixel horror abandoned rural  train station/Materials
+  artifactKey: Guid(ebd38e07e82bb3c47b1422ab82cafb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel horror abandoned rural  train station/Materials using Guid(ebd38e07e82bb3c47b1422ab82cafb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '17e57447e9879e044964356db95aecfa') in 0.000133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/pixel horror abandoned rural  train station/Materials/old wood boords thick.mat
+  artifactKey: Guid(023021e153e82cf4ca7aba646d7005d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel horror abandoned rural  train station/Materials/old wood boords thick.mat using Guid(023021e153e82cf4ca7aba646d7005d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '39b519196bce39d5f35b2eebf0ab37c8') in 0.004890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/pixel horror abandoned rural  train station/Materials/light.mat
+  artifactKey: Guid(5aa8191ceecc47642aeb4278b7ad0def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel horror abandoned rural  train station/Materials/light.mat using Guid(5aa8191ceecc47642aeb4278b7ad0def) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8c499eb20ef6ddc43f874dc70c3473ff') in 0.003098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/pixel horror abandoned rural  train station/Materials/MossyBricks.mat
+  artifactKey: Guid(5839a7d595b051c4ca054dd105930641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel horror abandoned rural  train station/Materials/MossyBricks.mat using Guid(5839a7d595b051c4ca054dd105930641) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '954b5a41aa5a3562004424972b864814') in 0.007011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/pixel horror abandoned rural  train station/Materials/Meta lPlates Rusted.mat
+  artifactKey: Guid(f60b235fe7019874a956354ffafdda03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel horror abandoned rural  train station/Materials/Meta lPlates Rusted.mat using Guid(f60b235fe7019874a956354ffafdda03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd8ed8e7550ed1c061442107890aec26f') in 0.003837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/pixel horror abandoned rural  train station/Materials/old Wood Plank thin.mat
+  artifactKey: Guid(75227687ed1e2024a9c1b93f4a922347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel horror abandoned rural  train station/Materials/old Wood Plank thin.mat using Guid(75227687ed1e2024a9c1b93f4a922347) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd1cb6ee289ce54bc7bdfc2437eafa36f') in 0.005801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 602.230448 seconds.
+  path: Assets/Toon City Pack/Prefabs/Buildings/Government Buildings/government-building-bank.prefab
+  artifactKey: Guid(80b7f4a5711d54ec2962815e76b809f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City Pack/Prefabs/Buildings/Government Buildings/government-building-bank.prefab using Guid(80b7f4a5711d54ec2962815e76b809f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '16d81b56d49908d211698c34a7da5605') in 0.076529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Toon City Pack/Prefabs/Buildings/Government Buildings/government-building-school.prefab
+  artifactKey: Guid(95664cfa7fe4b431986fc1a75b422d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City Pack/Prefabs/Buildings/Government Buildings/government-building-school.prefab using Guid(95664cfa7fe4b431986fc1a75b422d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b39c09a8efa9a162102cf987e6c43d36') in 0.009149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000508 seconds.
+  path: Assets/Toon City Pack/Prefabs/Buildings/Government Buildings/government-building-fire-station.prefab
+  artifactKey: Guid(92c740a39a2114a0585c8786bd34a4b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City Pack/Prefabs/Buildings/Government Buildings/government-building-fire-station.prefab using Guid(92c740a39a2114a0585c8786bd34a4b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3fd4480e4e819dbc8420324dd58b0675') in 0.010958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Toon City Pack/Prefabs/Buildings/Government Buildings/government-building-police-station.prefab
+  artifactKey: Guid(e8734d8ffa67c4f548eb3ea6fc31ca31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City Pack/Prefabs/Buildings/Government Buildings/government-building-police-station.prefab using Guid(e8734d8ffa67c4f548eb3ea6fc31ca31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0993567af033be2d9152ba5f0ee3e52a') in 0.013130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Toon City Pack/Prefabs/Buildings/Government Buildings/government-building-museum.prefab
+  artifactKey: Guid(160c23d4a1f4d4843a0b3a67fcfa4bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City Pack/Prefabs/Buildings/Government Buildings/government-building-museum.prefab using Guid(160c23d4a1f4d4843a0b3a67fcfa4bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a871ab54279f623adac7747eed8feef4') in 0.021381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 6.298677 seconds.
+  path: Assets/Toon City Pack/Prefabs/Buildings/Commercial Buildings/commercial-building-coffee-shop.prefab
+  artifactKey: Guid(bf1f5bdc441574cccb97bc77d94cccac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City Pack/Prefabs/Buildings/Commercial Buildings/commercial-building-coffee-shop.prefab using Guid(bf1f5bdc441574cccb97bc77d94cccac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4c424d1aad2acaa5be24464b0e24f143') in 0.015025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Toon City Pack/Prefabs/Buildings/Commercial Buildings/commercial-building-hotel.prefab
+  artifactKey: Guid(5426e7f86b5b74ec0a38dd992399a5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City Pack/Prefabs/Buildings/Commercial Buildings/commercial-building-hotel.prefab using Guid(5426e7f86b5b74ec0a38dd992399a5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1dc1d4f6986641f05421f0bc07304e95') in 0.012773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000877 seconds.
+  path: Assets/Toon City Pack/Prefabs/Buildings/Commercial Buildings/commercial-building-shopping-center.prefab
+  artifactKey: Guid(b7606478af2ba44b28e13ccd39a13373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City Pack/Prefabs/Buildings/Commercial Buildings/commercial-building-shopping-center.prefab using Guid(b7606478af2ba44b28e13ccd39a13373) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1b2f0d96e8831088f94bf7f7d4508d91') in 0.011246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Toon City Pack/Prefabs/Buildings/Commercial Buildings/commercial-building-pizza-shop.prefab
+  artifactKey: Guid(31ec228187ddd4313a8c9b564df8200a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City Pack/Prefabs/Buildings/Commercial Buildings/commercial-building-pizza-shop.prefab using Guid(31ec228187ddd4313a8c9b564df8200a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cef2bb31afabe25e4d7a6ef3d4bf62d7') in 0.011407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 3.418173 seconds.
+  path: Assets/Toon City Pack/Prefabs/Buildings/Civil Buildings/cb-apartment-A.prefab
+  artifactKey: Guid(0c7f1786f206a4f149506fbb91114ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City Pack/Prefabs/Buildings/Civil Buildings/cb-apartment-A.prefab using Guid(0c7f1786f206a4f149506fbb91114ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1afd012cb0a8e517e39215bdfb48bce0') in 0.017135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Toon City Pack/Prefabs/Buildings/Civil Buildings/suburban-house-B.prefab
+  artifactKey: Guid(8be760067bfd64276b6a98998751e48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City Pack/Prefabs/Buildings/Civil Buildings/suburban-house-B.prefab using Guid(8be760067bfd64276b6a98998751e48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2ff656d257ce8c675121bc17fc6ef75c') in 0.006520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toon City Pack/Prefabs/Buildings/Civil Buildings/suburban-house-E.prefab
+  artifactKey: Guid(7e1e1e5641b7b430e9cff12b237d76cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City Pack/Prefabs/Buildings/Civil Buildings/suburban-house-E.prefab using Guid(7e1e1e5641b7b430e9cff12b237d76cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '71770832d64827cacb3195cadae752a7') in 0.008801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toon City Pack/Prefabs/Buildings/Civil Buildings/cb-apartment-H.prefab
+  artifactKey: Guid(9e7280d5e34184239966f48cfe7539ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City Pack/Prefabs/Buildings/Civil Buildings/cb-apartment-H.prefab using Guid(9e7280d5e34184239966f48cfe7539ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bf3ad628409a602fdd681cde67e98699') in 0.006342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toon City Pack/Prefabs/Buildings/Civil Buildings/cb-apartment-F.prefab
+  artifactKey: Guid(b8b48fd9575c34dde9410dee78a4ff72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City Pack/Prefabs/Buildings/Civil Buildings/cb-apartment-F.prefab using Guid(b8b48fd9575c34dde9410dee78a4ff72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a6d1c147386dbb0ce277eccb490dad11') in 0.007935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Toon City Pack/Prefabs/Buildings/Civil Buildings/cb-apartment-G.prefab
+  artifactKey: Guid(ae143931a5435412bb49667fb5750a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City Pack/Prefabs/Buildings/Civil Buildings/cb-apartment-G.prefab using Guid(ae143931a5435412bb49667fb5750a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fcd1ecc5cdf09e16dcc7b7c74ea915b7') in 0.005906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toon City Pack/Prefabs/Buildings/Civil Buildings/cb-apartment-D.prefab
+  artifactKey: Guid(c003e24639b7949cf8abbaaf6ba7f4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City Pack/Prefabs/Buildings/Civil Buildings/cb-apartment-D.prefab using Guid(c003e24639b7949cf8abbaaf6ba7f4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '19e28deef7b3223c1c36c6aa02973728') in 0.007430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 11.051617 seconds.
+  path: Assets/Toon City Pack/Prefabs/Infrastructure/Infrastructure Buildings/infrastructure-building-airport.prefab
+  artifactKey: Guid(fe6ff66160a474772a093e1099da8ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City Pack/Prefabs/Infrastructure/Infrastructure Buildings/infrastructure-building-airport.prefab using Guid(fe6ff66160a474772a093e1099da8ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2bcaf9ef8f5999fcfb6d4301a451fe8e') in 0.016283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Toon City Pack/Prefabs/Infrastructure/Infrastructure Buildings/infrastructure-building-nuclear-power-plant.prefab
+  artifactKey: Guid(abb81e11b72744a38bb2804e31a48b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City Pack/Prefabs/Infrastructure/Infrastructure Buildings/infrastructure-building-nuclear-power-plant.prefab using Guid(abb81e11b72744a38bb2804e31a48b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b822bc051b430992ed50186f7dc023b3') in 0.013206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Toon City Pack/Prefabs/Infrastructure/Infrastructure Buildings/infrastructure-building-clock-tower.prefab
+  artifactKey: Guid(b52c4b9c54a5946499f05e297a4fc6f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City Pack/Prefabs/Infrastructure/Infrastructure Buildings/infrastructure-building-clock-tower.prefab using Guid(b52c4b9c54a5946499f05e297a4fc6f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e902950940d69861c569f04aeffbe4a3') in 0.014298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 994.417162 seconds.
+  path: Assets/Toon City Pack/Prefabs/Infrastructure/Props/street-light-double.prefab
+  artifactKey: Guid(7b5e1eea516134af4811125beb2c0716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City Pack/Prefabs/Infrastructure/Props/street-light-double.prefab using Guid(7b5e1eea516134af4811125beb2c0716) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd3729fa006282a5439860fab21561f6a') in 0.114911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Toon City Pack/Prefabs/Infrastructure/Props/traffic-lights-curved.prefab
+  artifactKey: Guid(7e568744be8aa4731b0c70b6e4588dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City Pack/Prefabs/Infrastructure/Props/traffic-lights-curved.prefab using Guid(7e568744be8aa4731b0c70b6e4588dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd2cb5e5a8a2b32d1c8df31d33c3c521b') in 0.006177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 1220.364089 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels
+  artifactKey: Guid(93d144a3b2d84954a8d45bc8c591a9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels using Guid(93d144a3b2d84954a8d45bc8c591a9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f4d05788672f8b688a598f8a6ecf112e') in 0.001136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.165878 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Ambulance_separate.prefab
+  artifactKey: Guid(b3f4ad6e44f81784ba0ebe95aadf2a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Ambulance_separate.prefab using Guid(b3f4ad6e44f81784ba0ebe95aadf2a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '19beb4f1c56905568fbca12b3093339e') in 0.047808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Truck_color02_separate.prefab
+  artifactKey: Guid(f119644f5530c1044aa946bb6b18bb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Truck_color02_separate.prefab using Guid(f119644f5530c1044aa946bb6b18bb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6bc788a17c45f565a1f3a8756036f6a2') in 0.013330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_SUV_color03_separate.prefab
+  artifactKey: Guid(f0ffa104f4ba20b40a0421d7c2b5f098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_SUV_color03_separate.prefab using Guid(f0ffa104f4ba20b40a0421d7c2b5f098) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '292856aaf2fe3ae66192fdb378a20b03') in 0.008873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Bus_color02_separate.prefab
+  artifactKey: Guid(3cfde9a41ff096140a1bfec6f262d0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Bus_color02_separate.prefab using Guid(3cfde9a41ff096140a1bfec6f262d0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5c64cb6784f777eb886f0f0c9d8bed16') in 0.005436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Container_color03_separate.prefab
+  artifactKey: Guid(a8a6e2e210e71bc4ab5ba85122928ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Container_color03_separate.prefab using Guid(a8a6e2e210e71bc4ab5ba85122928ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd57863dd540fddda7b046dbde623813a') in 0.006672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Police Car_separate.prefab
+  artifactKey: Guid(a7b60e70606f80245b2f8bc7ce2fadb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Police Car_separate.prefab using Guid(a7b60e70606f80245b2f8bc7ce2fadb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '75ee5f79c54f510cef11825dfc1190dc') in 0.005785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Truck_color03_separate.prefab
+  artifactKey: Guid(1508f459923b7df4889f466e17864ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Truck_color03_separate.prefab using Guid(1508f459923b7df4889f466e17864ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '24c2920aec24db6dece949c74537d3be') in 0.005913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Container_color01_separate.prefab
+  artifactKey: Guid(b836817eff26a034bbd13884590ce648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Container_color01_separate.prefab using Guid(b836817eff26a034bbd13884590ce648) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '376dacd252a4b62abd3334ab455ddf25') in 0.004858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Pick up Truck_color01_separate.prefab
+  artifactKey: Guid(fc2b2b65264c13f48a615fa7dbc2ef24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Pick up Truck_color01_separate.prefab using Guid(fc2b2b65264c13f48a615fa7dbc2ef24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7df8b876f8c6e2ac5c5801bf4c5588d1') in 0.007417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Container_color02_separate.prefab
+  artifactKey: Guid(025a3497fa872fe4ebfed7edb8eb310c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Container_color02_separate.prefab using Guid(025a3497fa872fe4ebfed7edb8eb310c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2ba9b17f08b98ac47d7919a79b1d002a') in 0.004854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Car_color01_separate.prefab
+  artifactKey: Guid(d267fbb9e36c6e4458c9a8756d725a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Car_color01_separate.prefab using Guid(d267fbb9e36c6e4458c9a8756d725a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9b389344c32ebd3e841eb2bd2d1db448') in 0.004412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Car_color03_separate.prefab
+  artifactKey: Guid(11a57a102cdb5e642899ceab079f1938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Car_color03_separate.prefab using Guid(11a57a102cdb5e642899ceab079f1938) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1b8fd1c4b8a145a8bd5c295f894ec3eb') in 0.005203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Pick up Truck_color03_separate.prefab
+  artifactKey: Guid(675baac8bae68964e948aabc6ff2857c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Pick up Truck_color03_separate.prefab using Guid(675baac8bae68964e948aabc6ff2857c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e71a4a29547a356237bc04857156b25f') in 0.004358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Bus_color03_separate.prefab
+  artifactKey: Guid(e1697ef5073defa458e40968ffff2b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Bus_color03_separate.prefab using Guid(e1697ef5073defa458e40968ffff2b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a69a1f296ed57a7daa57d46bfb504e95') in 0.005319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 963.567011 seconds.
+  path: Assets/Toon City Pack/Prefabs/Vehicles/helicopter.prefab
+  artifactKey: Guid(1a1950ddfca1e4758a6a878bc01d7774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City Pack/Prefabs/Vehicles/helicopter.prefab using Guid(1a1950ddfca1e4758a6a878bc01d7774) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3849d66395b56b8edcbfbbedb8153686') in 0.012795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 8.242722 seconds.
+  path: Assets/Toon City Pack/Prefabs/Vehicles/Civil Vehicles
+  artifactKey: Guid(c218348cf6e9f482984af8f84f8cb8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City Pack/Prefabs/Vehicles/Civil Vehicles using Guid(c218348cf6e9f482984af8f84f8cb8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a0a35ae2b6a35bee85a9d948112e382d') in 0.000436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.298087 seconds.
+  path: Assets/Toon City Pack/Prefabs/Vehicles/Government Vehicles
+  artifactKey: Guid(68f8eb3ef5a9947d0a22bbd207feea48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City Pack/Prefabs/Vehicles/Government Vehicles using Guid(68f8eb3ef5a9947d0a22bbd207feea48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f9cefa0a69cd36dd8d16d3d122b8b836') in 0.000345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.153247 seconds.
+  path: Assets/Toon City Pack/Prefabs/Vehicles/Government Vehicles/police-car.prefab
+  artifactKey: Guid(3251c781defe1407c8f424ea546826e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City Pack/Prefabs/Vehicles/Government Vehicles/police-car.prefab using Guid(3251c781defe1407c8f424ea546826e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9f69fc8032bf48c8a307bb41f73bf134') in 0.011845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
